@@ -3,23 +3,86 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Hello Ionic</ion-title>
+    <ion-title>Health Care Application</ion-title>
   </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
 
-  <h3>Welcome to your first Ionic app!</h3>
+  <ion-card>
 
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+    <img src="./new_ferrer_park_hospital.jpg" />
+    <ion-card-header>
+      <ion-card-title>Farrer Park Hospital</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Farrer Park Hospital is a private tertiary healthcare institution in Farrer Park, Singapore opened in March 2016
+      by Health Minister Gan Kim Yong. It is part of Singapore’s first fully integrated healthcare-hospitality complex,
+      Connexion, a 20 storey building which is developed and managed by The Farrer Park Company.
+    </ion-card-content>
+
+    <!-- <button (click)="makeCall('ferrer_park')" ion-button color="primary" slot="end" style="margin-bottom: 10px;">
+      <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+      Call to Farrer Park Hospital
+    </button> -->
+
+    <a href="tel:6363 1818">
+        <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+      Call to Farrer Park Hospital
+    </a>
+
+  </ion-card>
+
+  <ion-card>
+
+    <img src="./mount_elizabeth.jpg" />
+    <ion-card-header>
+      <ion-card-title>Farrer Park Hospital</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Mount Elizabeth Hospital, known colloquially as Mount E, is a 345-bed private hospital in Singapore operated by
+      Parkway Health. Construction began in 1976 and the hospital officially opened on 8 December 1979. The hospital
+      specialises in cardiology, oncology, and neuroscience, among other tertiary services.
+    </ion-card-content>
+
+    <!-- <button (click)="makeCall('mount_elizabeth')" ion-button color="primary" slot="end" style="margin-bottom: 10px;">
+      <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+      Call to Mount Elizabeth Hospital
+    </button> -->
+
+    <a href="tel:6737 2666">
+        <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+      Call to Farrer Park Hospital
+    </a>
+
+  </ion-card>
+
+  <ion-card>
+
+      <img src="./TanTockSeng.jpeg" />
+      <ion-card-header>
+        <ion-card-title>Tan Tock Seng Hospital</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+          Tan Tock Seng Hospital is one of Singapore’s largest multi-disciplinary hospitals. The hospital has 45 clinical and allied health departments, 16 specialist centres and is powered by more than 8,000 healthcare staff. 
+      </ion-card-content>
+  
+      <!-- <button (click)="makeCall('Tan_Tock_Seng')" ion-button color="primary" slot="end" style="margin-bottom: 10px;">
+        <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+        Call to Tan Tock Seng Hospital
+      </button> -->
+      
+      <a href="tel:6256 6011">
+          <ion-icon name="call" style="font-size: 20px; margin-right: 20px;"></ion-icon>
+        Call to Farrer Park Hospital
+      </a>
+  
+    </ion-card>
+
+
 
 </ion-content>
