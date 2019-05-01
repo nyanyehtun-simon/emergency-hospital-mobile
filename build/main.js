@@ -4,9 +4,9 @@ webpackJsonp([3],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesFoodPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesWeatherPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -19,29 +19,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the PagesFoodPage page.
+ * Generated class for the PagesWeatherPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var PagesFoodPage = /** @class */ (function () {
-    function PagesFoodPage(navCtrl, navParams) {
+var PagesWeatherPage = /** @class */ (function () {
+    function PagesWeatherPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    PagesFoodPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PagesFoodPage');
+    PagesWeatherPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PagesWeatherPage');
     };
-    PagesFoodPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-pages-food',template:/*ion-inline-start:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-food/pages-food.html"*/'<!--\n  Generated template for the PagesFoodPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Food Page</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Healthy Food Patients should consider</h2>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <div>\n          <img src="veg-image1.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="veg-image2.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="veg-image3.jpg" height="250px">\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-food/pages-food.html"*/,
+    PagesWeatherPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-pages-weather',template:/*ion-inline-start:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-weather/pages-weather.html"*/'<!--\n  Generated template for the PagesWeatherPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n<ion-navbar>\n  <button ion-button menuToggle>\n    <ion-icon name="menu"></ion-icon>\n  </button>\n  <ion-title>Weather Page</ion-title>\n</ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Multi-Nutrients Patients should consider</h2>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <div>\n          <img src="medicine1.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="medicine2.jpeg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="medicine3.jpeg" height="250px">\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-weather/pages-weather.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], PagesFoodPage);
-    return PagesFoodPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["h" /* NavParams */]])
+    ], PagesWeatherPage);
+    return PagesWeatherPage;
 }());
 
-//# sourceMappingURL=pages-food.js.map
+//# sourceMappingURL=pages-weather.js.map
 
 /***/ }),
 
@@ -67,15 +67,15 @@ webpackEmptyAsyncContext.id = 110;
 
 var map = {
 	"../pages/pages-food/pages-food.module": [
-		274,
+		272,
 		2
 	],
 	"../pages/pages-home-ionic/pages-home-ionic.module": [
-		272,
+		273,
 		0
 	],
 	"../pages/pages-weather/pages-weather.module": [
-		273,
+		274,
 		1
 	]
 };
@@ -205,8 +205,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(263);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pages_food_pages_food__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pages_weather_pages_weather__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pages_food_pages_food__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pages_weather_pages_weather__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -244,9 +244,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/pages-food/pages-food.module#PagesFoodPageModule', name: 'PagesFoodPage', segment: 'pages-food', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pages-home-ionic/pages-home-ionic.module#PagesHomeIonicPageModule', name: 'PagesHomeIonicPage', segment: 'pages-home-ionic', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pages-weather/pages-weather.module#PagesWeatherPageModule', name: 'PagesWeatherPage', segment: 'pages-weather', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pages-food/pages-food.module#PagesFoodPageModule', name: 'PagesFoodPage', segment: 'pages-food', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/pages-weather/pages-weather.module#PagesWeatherPageModule', name: 'PagesWeatherPage', segment: 'pages-weather', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormsModule */],
@@ -336,8 +336,8 @@ var ListPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_hello_ionic_hello_ionic__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_pages_food_pages_food__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_pages_weather_pages_weather__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_pages_food_pages_food__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_pages_weather_pages_weather__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -410,9 +410,9 @@ var MyApp = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesWeatherPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesFoodPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(27);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -425,29 +425,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the PagesWeatherPage page.
+ * Generated class for the PagesFoodPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var PagesWeatherPage = /** @class */ (function () {
-    function PagesWeatherPage(navCtrl, navParams) {
+var PagesFoodPage = /** @class */ (function () {
+    function PagesFoodPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    PagesWeatherPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PagesWeatherPage');
+    PagesFoodPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PagesFoodPage');
     };
-    PagesWeatherPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-pages-weather',template:/*ion-inline-start:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-weather/pages-weather.html"*/'<!--\n  Generated template for the PagesWeatherPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n<ion-navbar>\n  <button ion-button menuToggle>\n    <ion-icon name="menu"></ion-icon>\n  </button>\n  <ion-title>Weather Page</ion-title>\n</ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Multi-Nutrients Patients should consider</h2>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <div>\n          <img src="medicine1.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="medicine2.jpeg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="medicine3.jpeg" height="250px">\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-weather/pages-weather.html"*/,
+    PagesFoodPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-pages-food',template:/*ion-inline-start:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-food/pages-food.html"*/'<!--\n  Generated template for the PagesFoodPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Food Page</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Healthy Food Patients should consider</h2>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <div>\n          <img src="veg-image1.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="veg-image2.jpg" height="250px">\n        </div>\n      </ion-col>\n      <ion-col>\n        <div>\n          <img src="veg-image3.jpg" height="250px">\n        </div>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/nyanyehtun/angular_projects/ChoToo/emergency-hospital-mobile-app/src/pages/pages-food/pages-food.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["h" /* NavParams */]])
-    ], PagesWeatherPage);
-    return PagesWeatherPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], PagesFoodPage);
+    return PagesFoodPage;
 }());
 
-//# sourceMappingURL=pages-weather.js.map
+//# sourceMappingURL=pages-food.js.map
 
 /***/ })
 
