@@ -3,6 +3,8 @@ import { MenuController, Nav, Platform } from 'ionic-angular';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
+import { PagesFoodPage } from '../pages/pages-food/pages-food';
+import { PagesWeatherPage } from '../pages/pages-weather/pages-weather';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
@@ -26,8 +28,9 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Home', component: HelloIonicPage }
-      // { title: 'About us', component: ListPage }
+      { title: 'Home', component: HelloIonicPage },
+      { title: 'Medicine', component: PagesWeatherPage },
+      { title: 'Food', component: PagesFoodPage }
     ];
   }
 

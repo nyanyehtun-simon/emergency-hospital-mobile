@@ -1,22 +1,25 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+import { BrowserModule } from '@angular/platform-browser';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
-
-import { StatusBar } from '@ionic-native/status-bar';
+import { MyApp } from './app.component';
+import { PagesFoodPage } from '../pages/pages-food/pages-food';
+import { PagesWeatherPage } from '../pages/pages-weather/pages-weather';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { StatusBar } from '@ionic-native/status-bar';
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    PagesWeatherPage,
+    PagesFoodPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    PagesWeatherPage,
+    PagesFoodPage
   ],
   providers: [
     StatusBar,
